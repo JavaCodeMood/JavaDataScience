@@ -1,0 +1,11 @@
+@relation MyRelation
+
+@attribute age numeric
+@attribute name string
+@attribute dob date yyyy-MM-dd
+@attribute class {class1,class2,class3,class4,class5}
+
+@data
+35,'John Doe',2021-01-20,class3
+30,'Harry Potter',2021-07-05,class1
+25,Tom,2021-01-01,class4
